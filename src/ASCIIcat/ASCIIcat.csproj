@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.2.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Author>jonte</Author>
+    <Name>ASCIIcat</Name>
+    <Punchline>A tiny local scrapbook for exact chat art.</Punchline>
+    <Description>Capture recent multi-line chat art, preserve exact whitespace and Unicode, organize it locally, and send a whole artwork with one confirmed action.</Description>
+    <Tags>chat;ascii;unicode;accessibility;utility</Tags>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASCIIcat.Core\ASCIIcat.Core.csproj" />
+  </ItemGroup>
+</Project>

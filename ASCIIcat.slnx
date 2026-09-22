@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/ASCIIcat.Core/ASCIIcat.Core.csproj" />
+  <Project Path="src/ASCIIcat/ASCIIcat.csproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="tests/ASCIIcat.Core.Tests/ASCIIcat.Core.Tests.csproj" />
+</Solution>
+
